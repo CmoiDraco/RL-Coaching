@@ -1,0 +1,764 @@
+p{
+    margin: 0;
+}
+a{
+    color: inherit;
+}
+td{
+    padding: 5px 10px;
+}
+/* .prizes p{
+    line-height: 36px;
+} */
+.row{
+    margin-bottom: 10px!important;
+}
+.modal .mb_0{
+    margin-bottom: 0px!important;
+}
+.mid{
+    padding:0 50px!important;
+}
+.coach-pseudo{
+    font-size: 2em !important;
+    margin: 0;
+    line-height: 50px;
+    display: inline-block;
+}
+.coach-avis span{
+    margin: 0;
+    text-align: right;
+}
+.coach-avis a{
+    font-size: 0.9em !important;
+    margin: 0;
+    display: block;
+    text-align: right;
+}
+.coach-roles{
+    margin: 0;
+    line-height: 20px;
+    font-size: 0.9em !important;
+    width: 50%;
+}
+.coach-slogan{
+    margin: 0;
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+    line-height: 30px;
+}
+h1.coach-pseudo span:not(.badge){
+    font-size: 0.6em!important;
+    display: block;
+    line-height: 50px;
+}
+.coach_description p{
+    margin:0!important;
+}
+.coach_description *{
+    word-break: break-word;
+}
+.coach_description img{
+    max-width:100%;
+}
+#fixed-right{
+    position:absolute;
+}
+.bg-profil{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+.left-side{
+    margin-top:-200px;
+}
+.row-infos{
+    margin-top:-210px;
+    position: relative;
+    color: #FFF;
+}
+.online{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #00e676;
+    background-color: #00e676;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    display: inline-block;
+}
+.flags{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.description{
+    margin-top: 30px;
+}
+.coach-buy{
+    margin-top:-80px;
+}
+.price{
+    font-size: 1.5em !important;
+    position: relative;
+    color: white!important;
+}
+.certif{
+    font-size: 1.5em !important;
+    position: relative;
+    color: white!important;
+}
+.price-scroll{
+    font-size: 1.3em !important;
+    position: absolute;
+    color: white!important;
+}
+.nav-scroll .bg-price-left{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px 0 0 3px;
+    height:50px;
+    padding: 0 15px;
+    text-align: center;
+}
+.nav-scroll .bg-price-right{
+    margin-right: 5px;
+    border-radius: 0 3px 3px 0;
+    height:50px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.total{
+    font-size: 0.5em !important;
+    position:absolute;
+}
+.pack-panel{
+    background-color: #FFF;
+}
+.embed{
+    background-color: transparent;
+    width: 1080px;
+    height: 610px;
+    overflow: hidden;
+}
+.embed .modal-content{
+    padding: 0px!important;
+}
+.embed iframe{
+    width: 100%;
+    height: 610px;
+    margin-bottom: -6px;
+}
+.card-content p{
+    word-break: break-word;
+    white-space: pre-line;
+}
+.prices{
+    margin-top: -110px;
+    position: relative;
+    color: #FFF;
+}
+.pack-name{
+    font-size: 1.5em!important;
+}
+/* #calendar{
+    height: 665px;
+    position: relative;
+}
+.fc-time-grid-container{
+    overflow-x: hidden!important;
+    overflow-y: auto!important;
+    height: 550px!important;
+} */
+.nb-place:hover{
+    background-color: #3a3f4a!important;
+    transition: all 0.2s ease;
+}
+.nb-place.active{
+    background-color: #3a3f4a!important;
+    transition: all 0.2s ease;
+}
+
+nav{
+    position: relative;
+    z-index: 100;
+}
+.tabs-nav{
+    position: relative;
+    z-index: 90;
+}
+
+.coach-pseudo-mobile{
+    font-size: 1.5em!important;
+    margin: 0px;
+    line-height: 25px;
+}
+.coach-pseudo-mobile span:not(.badge){
+    display: block;
+    font-size: 0.8em!important;
+}
+.coach-roles-mobile{
+    font-size: 1.2em!important;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.list-prices li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.list-prices .input-field{
+    margin:0px;
+}
+.bg-certif{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.bg-price-left{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px 0 0 3px;
+    padding: 5px 20px;
+    text-align: center;
+}
+.bg-price-right{
+    background-color: #29abe2;
+    border-radius: 0 3px 3px 0;
+    padding: 5px 20px;
+    text-align: center;
+}
+.bg-total{
+    padding: 0px 10px;
+    text-align: center;
+}
+ul.list-prices li.bg-submit{
+    text-align: center;
+    margin-right: 0px;
+}
+
+.nav-scroll{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    top: 64px;
+    z-index: 100;
+    background-repeat: no-repeat;
+    height: 82px;
+    background-size: cover;
+    background-position: 50% 40%;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,0.4);
+}
+.glass-nav{
+    background: inherit;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    overflow: hidden;
+}
+.glass-nav::before{
+    content: "";
+    width: 115%;
+    height: 170%;
+    background: inherit;
+    position: absolute;
+    left: -25px;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 500px rgba(0,0,0,0.4);
+    filter: blur(15px);
+    -o-filter:blur(15px);
+    -webkit-filter:blur(15px);
+    -moz-filter:blur(15px);
+}
+
+
+ul.nav-scroll-wrapper>li{
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    height: 47px;
+}
+
+.list-prices-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.list-prices-nav .input-field{
+    margin:0px;
+}
+.bg-price-nav{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    padding: 2px 10px;
+    text-align: center;
+}
+.nav-scroll .avatar-small{
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.avis{
+    margin-top: 50px;
+}
+.clip-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    margin-top: -55px;
+    text-align: center;
+    padding: 10px;
+}
+.btn-nav-scroll{
+    margin-top: -35px;
+}
+.gaming-session{
+    margin-top: 60px;
+    color: #FFF;
+    position: relative;
+}
+.event-list li{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #cdcdcd;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.event-list li:hover{
+    background-color: #324254;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#modal-purchase{
+    height: 50%;
+}
+.price-card .card-image{
+    padding: 15px 0px;
+}
+.price-card{
+    filter:grayscale(80%);
+    -o-filter:grayscale(80%);
+    -webkit-filter:grayscale(80%);
+    -moz-filter:grayscale(80%);
+}
+.price-card.selected{
+    filter:grayscale(0%);
+    -o-filter:grayscale(0%);
+    -webkit-filter:grayscale(0%);
+    -moz-filter:grayscale(0%);
+}
+.price-card .card-image p{
+    font-size: 1.5em !important;
+    color: #FFF;
+    text-align: center;
+    font-weight: lighter;
+}
+.price-card .card-image p.price{
+    font-size: 3em !important;
+    color: #FFF;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: -10px;
+    padding: 0px;
+}
+.panel-list .panel{
+    height: 50px;
+    padding-top: 10px;
+}
+.panel-list .btn{
+    position: inherit;
+}
+.panel-list .inline-list{
+    height: 100%;
+}
+.panel-list .inline-list li.right{
+    padding-top: 3px;
+}
+#li-confirm_price{
+    font-size: 1.2em;
+}
+.select-hours .select-dropdown{
+    position: unset;
+    margin-top: -50px;
+}
+.bg-legends{
+    background-color: #f2f2f2;
+}
+.legends{
+    height: 20px;
+    width: 100%;
+}
+
+.social-list li{
+    margin-right: 10px;
+}
+.social-list li:last-child{
+    margin-right: 0px;
+}
+
+.class_description p,
+.coach_description p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.coach_description a{
+    text-decoration: underline!important;
+    color: #039be5!important;
+}
+.class_description a{
+    text-decoration: underline!important;
+    color: #039be5!important;
+}
+
+.row.comment{
+    margin-bottom: 20px!important;
+}
+
+.workshop-top {
+    border-top: 30px solid rgb(242, 173, 53)!important;
+}
+.gaming-top {
+    border-top: 30px solid rgb(54, 206, 136)!important;
+}
+.coaching-top {
+    border-top: 30px solid rgb(41, 171, 226)!important;
+}
+.hover-title-top {
+	text-transform: uppercase;
+	position: absolute;
+	top: -25px;
+	left: 0px;
+	right: 0px;
+	z-index: 60;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-weight: bold;
+}
+.coach-wrapper{
+    margin-top:-250px;
+}
+#tabs-coach{
+    margin-top:11px;
+    overflow-x: hidden;
+}
+.gaming{
+    background-image: -webkit-linear-gradient(top left, #81fbb8e0 10%, #28c76f8a 100%);
+    background-image: -o-linear-gradient(top left, #81fbb8e0 10%, #28c76f8a 100%);
+    background-image: linear-gradient(to bottom right, #81fbb8e0 10%, #28c76f8a 100%);
+}
+.workshop {
+    background-image: -webkit-linear-gradient(top left, #f2ad35e0 10%, #ffc6648a 100%);
+    background-image: -o-linear-gradient(top left, #f2ad35e0 10%, #ffc6648a 100%);
+    background-image: linear-gradient(to bottom right, #f2ad35e0 10%, #ffc6648a 100%);
+}
+.select-pack .select-wrapper{
+    height:25px;
+}
+.select-pack .select-wrapper input.select-dropdown{
+    height:25px!important;
+    /* background: rgb(59,52,137);
+    background: -moz-linear-gradient(29deg, rgba(59,52,137,1) 0%, rgba(17,182,235,1) 100%);
+    background: -webkit-linear-gradient(29deg, rgba(59,52,137,1) 0%, rgba(17,182,235,1) 100%);
+    background: linear-gradient(29deg, rgba(59,52,137,1) 0%, rgba(17,182,235,1) 100%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px!important;
+}
+.fc-list-view{
+    border: none!important;
+}
+.fc-center h2{
+    font-size: 1rem!important;
+    line-height: 30px;
+}
+.fc-unthemed .fc-list-heading td{
+    padding:5px!important;
+    background-color: #31363f !important;
+    border:none!important;
+}
+.fc-unthemed .fc-list-item td{
+    padding:5px!important;
+    border:none!important;
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.4); */
+}
+.fc-unthemed .fc-list-item:hover td{
+    background-color: #404753!important;
+}
+.workshops .fc-event-dot{
+    background-color: #F9A30E!important;
+    color: #F9A30E!important;
+}
+.lessons .fc-event-dot{
+    background-color: #29ABE2!important;
+    color: #29ABE2!important;
+}
+.gaming_sessions .fc-event-dot{
+    background-color: #36CE88!important;
+    color: #36CE88!important;
+}
+.reservations .fc-event-dot{
+    background-color: #324254!important;
+    color: #324254!important;
+}
+.fc-list-table{
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+.fc-list-empty{
+    background-color: transparent!important;
+}
+.center-coach{
+    margin-left: 30px;
+    margin-top:0px;
+}
+.has-pack{
+    position: -webkit-sticky;
+    position: sticky;
+    top:64px;
+    z-index:200;
+}
+[type="radio"]:not(:checked) + span:before, [type="radio"]:not(:checked) + span:after {
+    border: 2px solid #F2F2F2;
+}
+#twitch-player iframe{
+    border-radius: 15px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
+#twitch-player-online iframe{
+    border-radius: 15px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+}
+.custom-select{
+    border-radius:0px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    outline: none;
+    border-bottom:1px solid #9e9e9e;
+}
+.custom-select:focus{
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    outline: none;
+    border-bottom:2px solid #29abe2;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// MOBILE //////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 320px) and (max-width : 767px){
+    .about{
+        padding-top:100px!important;
+        margin-top: -100px;
+    }
+    #fixed-right{
+        position:relative;
+        margin-top: 30px;
+    }
+    #div-agenda{
+        display: none;
+    }
+    .center-coach{
+        margin-left: 0px;
+        margin-top:30px;
+    }
+
+    /* #calendar{
+        height: 500px;
+        position: relative;
+    } */
+    /* .fc-time-grid-container{
+        overflow-x: hidden!important;
+        overflow-y: auto!important;
+        height: 300px!important;
+    } */
+    .table-price-mobile tr{
+        border:none;
+    }
+    .table-price-mobile td{
+        padding: 10px;
+    }
+    .contact {
+        margin-top: -25px;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .price-card .card-image{
+        padding: 15px 0px;
+    }
+    .price-card .card-image p{
+        font-size: 1em !important;
+        color: #FFF;
+        text-align: center;
+        font-weight: lighter;
+    }
+    .price-card .card-image p.price{
+        font-size: 2em !important;
+        color: #FFF;
+        text-align: center;
+        font-weight: lighter;
+        margin-bottom: -10px;
+        padding: 0px;
+    }
+    .panel-list .panel{
+        border-radius: 3px 3px 0px 0px!important;
+    }
+    .panel-list .btn{
+        border-radius: 0px 0px 3px 3px!important;
+    }
+    #modal-event {
+        margin-top: 0%;
+    }
+
+    .nav-scroll-mobile{
+        position: sticky;
+        top: 60px;
+        width: 100%;
+        height: auto;
+        background-color: #FFF;
+        z-index: 100;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 40%;
+        box-shadow: 0 10px 20px -10px rgba(0,0,0,0.4);
+    }
+    .glass-nav-mobile{
+        background: inherit;
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        overflow: hidden;
+    }
+    .glass-nav-mobile::before{
+        content: "";
+        width: 115%;
+        height: 170%;
+        background: inherit;
+        position: absolute;
+        left: -25px;
+        right: 0;
+        top: -25px;
+        bottom: 0;
+        box-shadow: inset 0 0 0 500px rgba(0,0,0,0.4);
+        filter: blur(15px);
+        -o-filter:blur(15px);
+        -webkit-filter:blur(15px);
+        -moz-filter:blur(15px);
+    }
+    .price-scroll{
+        font-size: 1.3em !important;
+        opacity: 0.8;
+        position: relative;
+        color: white!important;
+    }
+    .nav-scroll-mobile .bg-price-left{
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 3px 0 0 3px;
+        height:50px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .nav-scroll-mobile .bg-price-right{
+        margin-right: 5px;
+        border-radius: 0 3px 3px 0;
+        height:50px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .panel-calendar{
+        margin: 0 -30px;
+    }
+    .coach-wrapper{
+        margin-top:-250px;
+    }
+    #tabs-coach{
+        overflow-x: auto;
+    }
+    .contact{
+        margin-top:-145px;
+    }
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////// Phablette /////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width : 1023px) {
+    .coach-wrapper{
+        margin-top:-250px;
+    }
+    #tabs-coach{
+        overflow-x: auto;
+    }
+    #fixed-right{
+        position:relative;
+        margin-top: 30px;
+    }
+    #div-agenda{
+        display: none;
+    }
+    .center-coach{
+        margin-left: 0px;
+        margin-top:30px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////// TABLETTE /////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 1024px) and (max-width : 1199px) {
+    .coach-roles{
+        margin: 0;
+        line-height: 20px;
+        font-size: 0.9em !important;
+        width: 80%;
+    }
+    .coach-wrapper{
+        margin-top:-245px;
+    }
+    #tabs-coach{
+        overflow-x: auto;
+    }
+    #fixed-right{
+        position:relative;
+        margin-top: 30px;
+    }
+    #div-agenda{
+        display: none;
+    }
+    .center-coach{
+        margin-left: 0px;
+        margin-top:0px;
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////// DESKTOP //////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 1200px ) and (max-width: 1600px){
+    .center-coach{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
